@@ -1,16 +1,16 @@
 //select div and append image
 //write a for loop
-$('#1').prepend($('<img>',{class:'theImg',src:'/images/1.jpg'}));
-$('#2').prepend($('<img>',{class:'theImg',src:'/images/2.jpg'}));
-$('#3').prepend($('<img>',{class:'theImg',src:'/images/3.jpg'}));
-$('#4').prepend($('<img>',{class:'theImg',src:'/images/4.jpg'}));
-$('#5').prepend($('<img>',{class:'theImg',src:'/images/5.jpg'}));
-$('#6').prepend($('<img>',{class:'theImg',src:'/images/6.jpg'}));
-$('#7').prepend($('<img>',{class:'theImg',src:'/images/7.jpg'}));
-$('#8').prepend($('<img>',{class:'theImg',src:'/images/8.jpg'}));
-$('#9').prepend($('<img>',{class:'theImg',src:'/images/9.jpg'}));
-$('#10').prepend($('<img>',{class:'theImg',src:'/images/10.jpg'}));
-$('#11').prepend($('<img>',{class:'theImg',src:'/images/11.jpg'}));
+$('#1').prepend($('<img>',{class:'theImg',src:'./images/1.jpg'}));
+$('#2').prepend($('<img>',{class:'theImg',src:'./images/2.jpg'}));
+$('#3').prepend($('<img>',{class:'theImg',src:'./images/3.jpg'}));
+$('#4').prepend($('<img>',{class:'theImg',src:'./images/4.jpg'}));
+$('#5').prepend($('<img>',{class:'theImg',src:'./images/5.jpg'}));
+$('#6').prepend($('<img>',{class:'theImg',src:'./images/6.jpg'}));
+$('#7').prepend($('<img>',{class:'theImg',src:'./images/7.jpg'}));
+$('#8').prepend($('<img>',{class:'theImg',src:'./images/8.jpg'}));
+$('#9').prepend($('<img>',{class:'theImg',src:'./images/9.jpg'}));
+$('#10').prepend($('<img>',{class:'theImg',src:'./images/10.jpg'}));
+$('#11').prepend($('<img>',{class:'theImg',src:'./images/11.jpg'}));
 
 
   
@@ -77,7 +77,7 @@ $('#11').prepend($('<img>',{class:'theImg',src:'/images/11.jpg'}));
 
         $( "#1").click(function() {
               $(".click").css("visibility","visible")
-              .prepend($('<img>',{class:'afterClick',src:'/images/1.jpg'}));
+              .prepend($('<img>',{class:'afterClick',src:'./images/1.jpg'}));
               $(".afterClick").height($(".click").height() );
             });
 
@@ -92,66 +92,66 @@ $('#11').prepend($('<img>',{class:'theImg',src:'/images/11.jpg'}));
 
         $( "#2").click(function() {
               $(".click").css("visibility","visible")
-              .prepend($('<img>',{class:'afterClick',src:'/images/2.jpg'}));
+              .prepend($('<img>',{class:'afterClick',src:'./images/2.jpg'}));
               $(".afterClick").height($(".click").height());
             });
 
         $( "#3").click(function() {
                       $(".click").css("visibility","visible")
-                      .prepend($('<img>',{class:'afterClick',src:'/images/3.jpg'}));
+                      .prepend($('<img>',{class:'afterClick',src:'./images/3.jpg'}));
                       $(".afterClick").height($(".click").height());
                     });
 
         $( "#4").click(function() {
                       $(".click").css("visibility","visible")
-                      .prepend($('<img>',{class:'afterClick',src:'/images/4.jpg'}));
+                      .prepend($('<img>',{class:'afterClick',src:'./images/4.jpg'}));
                       $(".afterClick").height($(".click").height());
                     });
 
         $( "#5").click(function() {
                       $(".click").css("visibility","visible")
-                      .prepend($('<img>',{class:'afterClick',src:'/images/5.jpg'}));
+                      .prepend($('<img>',{class:'afterClick',src:'./images/5.jpg'}));
                       $(".afterClick").height($(".click").height());
                     });
 
         $( "#6").click(function() {
                       $(".click").css("visibility","visible")
-                      .prepend($('<img>',{class:'afterClick',src:'/images/6.jpg'}));
+                      .prepend($('<img>',{class:'afterClick',src:'./images/6.jpg'}));
                       $(".afterClick").height($(".click").height());
                     });
 
         $( "#7").click(function() {
                       $(".click").css("visibility","visible")
-                      .prepend($('<img>',{class:'afterClick',src:'/images/7.jpg'}));
+                      .prepend($('<img>',{class:'afterClick',src:'./images/7.jpg'}));
                       $(".afterClick").height($(".click").height());
                     });
 
         $( "#8").click(function() {
                               $(".click").css("visibility","visible")
-                              .prepend($('<img>',{class:'afterClick',src:'/images/8.jpg'}));
+                              .prepend($('<img>',{class:'afterClick',src:'./images/8.jpg'}));
                               $(".afterClick").height($(".click").height());
                             });
 
         $( "#9").click(function() {
                               $(".click").css("visibility","visible")
-                              .prepend($('<img>',{class:'afterClick',src:'/images/9.jpg'}));
+                              .prepend($('<img>',{class:'afterClick',src:'./images/9.jpg'}));
                               $(".afterClick").height($(".click").height());
                             });
         $( "#10").click(function() {
                               $(".click").css("visibility","visible")
-                              .prepend($('<img>',{class:'afterClick',src:'/images/10.jpg'}));
+                              .prepend($('<img>',{class:'afterClick',src:'./images/10.jpg'}));
                               $(".afterClick").height($(".click").height());
                             });
 
         $( "#11").click(function() {
                               $(".click").css("visibility","visible")
-                              .prepend($('<img>',{class:'afterClick',src:'/images/11.jpg'}));
+                              .prepend($('<img>',{class:'afterClick',src:'./images/11.jpg'}));
                               $(".afterClick").height($(".click").height());
                             });
 
         $( "#12").click(function() {
                               $(".click").css("visibility","visible")
-                              .prepend($('<img>',{class:'afterClick',src:'/images/12.jpg'}));
+                              .prepend($('<img>',{class:'afterClick',src:'./images/12.jpg'}));
                               $(".afterClick").height($(".click").height());
                             });
 
